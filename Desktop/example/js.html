@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Movie reference </title>
+		
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src= "movie.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	
+	<body>
+		
+		<!--contentParent keeps all content centered and organized-->
+		<center><div class="centeredParent">
+		
+		
+			<h1 class="centered"> Search Movies Online </h1>
+		
+		
+			<form class="centered" id="mainForm">
+				<div id="frame">
+					<input type="text" name="movieSearcher" id="movieSearcher" value="Type some movie title" onclick="deleteInput(this)"/>			
+				</div>
+			</form>
+			<h2 id="movie-title">Movie Title</h2>
+			<img id="poster"/>
+			<p id="para"></p>
+		</div></center>
+	</body>
+</html>
